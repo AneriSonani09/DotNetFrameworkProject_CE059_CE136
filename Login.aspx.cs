@@ -31,22 +31,26 @@ namespace municiple_complaint_system1
             if (temp == 1)
             {
                 conn.Open();
-                string checkPassowrdQuery = "select Password from UserData where UserName='" + TextBoxPassword.Text + "'";
+                //string checkPassowrdQuery = "select Password from UserData where UserName='" + TextBoxPassword.Text + "'";
+                string checkPassowrdQuery = "select Password from UserData where UserName='" + TextBoxUserName.Text + "'";
                 SqlCommand comPass = new SqlCommand(checkPassowrdQuery, conn);
                 string password = comPass.ExecuteScalar().ToString().Replace(" ", "");
+                //string password = Convert.ToString(cmd.ExecuteScalar());
+                //string password = Convert.ToString(comPass.ExecuteScalar());
+               // Response.Write(password);
 
                 string checkUnameQuery = "select UserName from UserData where UserName = '" + TextBoxUserName.Text + "'";
                 SqlCommand comUname = new SqlCommand(checkUnameQuery, conn);
                 string uname = comUname.ExecuteScalar().ToString();
 
-                if (TextBoxUserName.Text == "admin" &&   TextBoxPassword.Text == "admin")
+                if (TextBoxUserName.Text == "admin" && TextBoxPassword.Text == "admin")
                 {
 
                     Session["User"] = TextBoxUserName.Text;
-         
+
                     Response.Redirect("admin.aspx");
-                    
-                    
+
+
                 }
                 else
                 {

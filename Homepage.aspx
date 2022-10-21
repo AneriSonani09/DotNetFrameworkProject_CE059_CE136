@@ -77,6 +77,11 @@
             height: 50px;
         }
        
+        .auto-style34 {
+            width: 250px;
+            margin-left: 0px;
+        }
+       
     </style>
 </head>
 <body>
@@ -135,14 +140,12 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="auto-style32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:HyperLink ID="feedback0" runat="server" ForeColor="White" NavigateUrl="feedback.aspx">FeedBack Form</asp:HyperLink>
+                            <td class="auto-style32">&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="report" runat="server" ForeColor="White">Report</asp:HyperLink>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style33">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:HyperLink ID="report" runat="server" ForeColor="White">Report</asp:HyperLink>
-                            </td>
+                                </td>
                         </tr>
                         <tr>
                             <td>
@@ -163,6 +166,7 @@
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Label ID="fname" runat="server" Text="FirstName"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="fnamea" runat="server" Width="250px" Height="20px"></asp:TextBox>
                             </td>
                         </tr>
@@ -175,42 +179,48 @@
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Label ID="Label2" runat="server" Text="Email"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="emaila" runat="server" Width="250px" Height="20px"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Label ID="issue" runat="server" Text="Issue"></asp:Label>
-            <asp:TextBox ID="issuea" runat="server" Height="20px" Width="250px"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="issuea" runat="server" Height="60px" Width="248px"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Label ID="dateofissue" runat="server" Text="Date Of Issue"></asp:Label>
-            <asp:TextBox ID="dateofissuea" runat="server" Height="20px" Width="250px" ></asp:TextBox>
+            &nbsp;<input type="date" ID="dateofissuea" runat="server" Height="20px" class="auto-style34" >
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Label ID="spotarea" runat="server" Text="SpotArea"></asp:Label>
-            <asp:TextBox ID="spotareaa" runat="server" Height="20px" Width="250px"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="spotareaa" runat="server" Height="40px" Width="250px"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Label ID="zone" runat="server" Text="Zone"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="zonea" runat="server" Height="20px" Width="250px"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Label ID="contactno" runat="server" Text="contact No."></asp:Label>
+            &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="contactnoa" runat="server" Height="20px" Width="250px" ></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Label ID="remark" runat="server" Text="Remarks"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="remarka" runat="server" Height="20px" Width="250px"></asp:TextBox>
                             </td>
                         </tr>x
@@ -222,11 +232,14 @@
                         <tr>
                             <td class="auto-style19" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">
             <asp:Button ID="rcomp" runat="server" Text="Register Complaint" OnClick="rcomp_Click" />
+                                <br />
+                                <br />
+                                <asp:Button ID="ccomp" runat="server" Text="Cancel Complaint" />
+                                <br />
                             </td>
                         </tr>
                         <tr>
-                            <td class="auto-style2" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px"><asp:Button ID="ccomp" runat="server" Text="Cancel Complaint" />
-                            </td>
+                            <td class="auto-style2" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 24px">&nbsp;</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>

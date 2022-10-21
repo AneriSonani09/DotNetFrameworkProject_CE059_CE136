@@ -13,5 +13,10 @@ namespace municiple_complaint_system1
         {
 
         }
+
+        protected void btn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("./Login.aspx");
+        }
     }
 }

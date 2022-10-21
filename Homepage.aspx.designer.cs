@@ -69,15 +69,6 @@ namespace municiple_complaint_system1
         protected global::System.Web.UI.WebControls.HyperLink feedback;
 
         /// <summary>
-        /// feedback0 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink feedback0;
-
-        /// <summary>
         /// report control.
         /// </summary>
         /// <remarks>
@@ -174,7 +165,7 @@ namespace municiple_complaint_system1
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dateofissuea;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl dateofissuea;
 
         /// <summary>
         /// spotarea control.

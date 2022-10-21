@@ -36,7 +36,7 @@ namespace municiple_complaint_system1
                     cmd.Parameters.AddWithValue("@fname", fnamea.Text);
                     cmd.Parameters.AddWithValue("@lname", lnamea.Text);
                     cmd.Parameters.AddWithValue("@issue", issuea.Text);
-                    cmd.Parameters.AddWithValue("@dateofissue", dateofissuea.Text);
+                    cmd.Parameters.AddWithValue("@dateofissue", dateofissuea.Value);
                     cmd.Parameters.AddWithValue("@spotarea", spotareaa.Text);
                     cmd.Parameters.AddWithValue("@zone", zonea.Text);
                     cmd.Parameters.AddWithValue("@mo_no", contactnoa.Text);

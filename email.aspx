@@ -135,7 +135,7 @@
                 <br />
                 <br />
                 <br />
-                Send your Email with Name, Email-id, Mobile Number, Problem to resolve and Location(zone) where the problem is, at &quot;ccrs@ahmedabadcity.gov.in&quot; The call operator will check the email and register the complaint in the system. Operator may contact the citizen in case, information provided is insufficient or any clarification required.</td>
+                Send your Email with Name, Email-id, Mobile Number, Problem to resolve and Location(zone) where the problem is, at &quot;mcs@gmail.com&quot; The call operator will check the email and register the complaint in the system. Operator may contact the citizen in case, information provided is insufficient or any clarification required.</td>
         </tr>
     </table>
                 </td>

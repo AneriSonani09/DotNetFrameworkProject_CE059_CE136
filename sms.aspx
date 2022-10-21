@@ -139,8 +139,7 @@
                         </tr>
                         <tr>
                             <td class="auto-style35"><span><img src="img/phone.png" /></span>
-                            <class="auto-style34"><span style="color: rgb(10, 168, 158); font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: 0.1px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Complaint Registration Through Phone</span></>
-                            </td>
+                            <class="auto-style34"><span style="color: rgb(10, 168, 158); font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: 0.1px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Complaint Registration Through Phone</span></td>
                         </tr>
                         <tr>
                             <td class="auto-style33">

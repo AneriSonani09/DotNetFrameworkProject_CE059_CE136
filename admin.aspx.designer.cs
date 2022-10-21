@@ -60,13 +60,13 @@ namespace municiple_complaint_system1
         protected global::System.Web.UI.WebControls.HyperLink feedback;
 
         /// <summary>
-        /// report control.
+        /// HyperLink1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink report;
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
 
         /// <summary>
         /// form1 control.

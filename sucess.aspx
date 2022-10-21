@@ -18,11 +18,15 @@
           margin: auto;
           background: #fff;
         } 
+        .auto-style1 {
+            text-align: center;
+        }
     </style>
 </head>
     
 <body>
     <form id="form1" runat="server">
+        <div class="auto-style1">
         <div>
 
                     <div class="container-720">
@@ -30,6 +34,11 @@
             <h1 style="line-height: 50px;padding-left: 10px;color:white">Your complaint was successfully registered, and we will take the quickest feasible action to resolve it.</h1>
             <img src="https://techfest.org/2018/logo-main.png" alt="" style="height: 50px;">
           </div>
+        </div>
+            </div>
+            <br />
+            <br />
+            <asp:Button ID="btn" runat="server" Height="46px" OnClick="btn_Click" Text="Logout" Width="178px" />
         </div>
     </form>
 </body>

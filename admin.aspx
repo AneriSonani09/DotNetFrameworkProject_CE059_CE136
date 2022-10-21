@@ -105,8 +105,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="auto-style27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:HyperLink ID="report" runat="server" ForeColor="White">Report</asp:HyperLink>
+                            <td class="auto-style27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" NavigateUrl="Login.aspx">Logout</asp:HyperLink>
                             </td>
                         </tr>
                         

@@ -85,7 +85,7 @@
             width: 322px;
         }
         .auto-style41 {
-            width: 933px;
+            width: 974px;
             text-align: center;
         }
         .auto-style42 {
